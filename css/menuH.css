@@ -1,0 +1,37 @@
+.menu{
+    display:flex;
+    justify-content: space-between;
+    padding: 1.5rem 6;
+}
+.menuEsquerdo{
+    display:flex;
+    align-items: center;
+}
+.menuEsquerdo{
+    color: #fff;
+}
+.menuLista{
+    display:flex;
+    align-items: center;
+}
+.menuLista ul{
+    display:flex;
+    justify-content: center;
+    list-style: none;
+}
+.itemMenu{
+    margin: 0 1px;
+}
+.linkItem{
+    text-decoration: none;
+    font-size: 14pt;
+    font-weight: 400;
+    color: #fff;
+    padding: 0 15px;
+}
+.menuDireito a{
+ border: none;
+}
+.menuBotao{
+    display: none; /* Para fazer o botão sumir*/
+}
